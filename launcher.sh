@@ -17,7 +17,7 @@ launch_training()
 
 
 
-env="doublecatcher-v0"
+env="catcher-v0"
 seed=0
 frames=$((10*(10**6)))
 run_id="test01"

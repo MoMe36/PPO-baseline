@@ -22,8 +22,6 @@ from storage import RolloutStorage
 from visualize import visdom_plot, get_reward_log
 
 import sys 
-sys.path.append('./reacher_base/reacher_base/')
-import reacher_base
 
 import matplotlib.pyplot as plt 
 from tensorboardX import SummaryWriter

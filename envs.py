@@ -40,7 +40,7 @@ except ImportError:
 
 def parse_params(seed):
 
-    with open('./envs_article.csv', 'r') as file: 
+    with open('./envs_params.csv', 'r') as file: 
 
         rows = csv.reader(file)
         next(rows) # removes first line 
